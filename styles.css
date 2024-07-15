@@ -1,0 +1,246 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #726e6e; 
+    color: #333; 
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('header-background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Top navigation styles */
+.top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+.top-nav ul {
+    list-style-type: none;
+    padding: 0;
+  text-align: center;
+}
+
+.top-nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.top-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.top-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section styles */
+.hero {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff5722;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Section styles */
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background: #ffffff;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section:nth-child(even) {
+    background: #f0f0f0;
+}
+
+/* About section styles */
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Portfolio and Testimonials styles */
+.portfolio-items, .testimonial-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-item, .testimonial-item {
+    flex: 1 1 calc(33.333% - 40px);
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-item p {
+    margin-bottom: 10px;
+}
+
+.testimonial-item h4 {
+    margin-top: 10px;
+}
+
+/* FAQ and Contact section styles */
+.contact-faq-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#faq-contact {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin-right: 20px;
+}
+
+#faq {
+    font-size: 14px;
+    flex: 1;
+}
+
+#contact {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+/* Contact info and social media styles */
+.contact-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contact-info div {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.contact-info img {
+    max-width: 30px;
+    margin-right: 10px;
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #ff5722;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+/* Bottom navigation styles */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.bottom-nav nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bottom-nav nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.bottom-nav nav ul li a {
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.bottom-nav nav ul li a:hover {
+    text-decoration: underline;
+}
